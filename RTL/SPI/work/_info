@@ -1,0 +1,114 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Rutvik/Project/SOC/RTL/SPI
+vspi_logic
+Z1 2spi_pkg.sv|spi_reg.sv|spi_logic.sv|spi_top.sv
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 DXx4 work 7 spi_pkg 0 22 f=:7ZonJ5:e?hARmPQc=O1
+Z4 !s110 1785598518
+!i10b 1
+!s100 JkoGeZHGUhURB990GaFB=3
+IHY6LK63Mkd9V4<6zX9N[U3
+S1
+R0
+w1785598513
+8spi_logic.sv
+Fspi_logic.sv
+!i122 2
+L0 1 423
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2024.1;79
+r1
+!s85 0
+31
+Z7 !s108 1785598518.000000
+!s107 spi_top.sv|spi_logic.sv|spi_reg.sv|spi_pkg.sv|
+Z8 !s90 spi_pkg.sv|spi_reg.sv|spi_logic.sv|spi_top.sv|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+Xspi_pkg
+R1
+R2
+R4
+!i10b 1
+!s100 L_TLN<GBHjdNGTInY<]O_2
+If=:7ZonJ5:e?hARmPQc=O1
+S1
+R0
+w1785597840
+8spi_pkg.sv
+Fspi_pkg.sv
+!i122 2
+L0 2 0
+Vf=:7ZonJ5:e?hARmPQc=O1
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 spi_top.sv|spi_logic.sv|spi_reg.sv|spi_pkg.sv|
+R8
+!i113 0
+R9
+R10
+vspi_regs
+R1
+R2
+R3
+R4
+!i10b 1
+!s100 =Z@>amgTbWHRMn8EECZfk3
+IGOmlUhLE2:CX<hzVo;;<d0
+S1
+R0
+w1785598033
+8spi_reg.sv
+Fspi_reg.sv
+!i122 2
+L0 2 217
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vspi_top
+R1
+R2
+R3
+R4
+!i10b 1
+!s100 dj:<3Hj]^@`H>Jo1=S4cB0
+I<idJJgM?1[z^l<;LfY>0M1
+S1
+R0
+w1785598420
+8spi_top.sv
+Fspi_top.sv
+!i122 2
+L0 1 146
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10

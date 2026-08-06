@@ -1,0 +1,114 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Rutvik/Project/SOC/RTL/UART
+vuart_logic
+Z1 2uart_pkg.sv|uart_logic.sv|uart_regs.sv|uart_top.sv
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 DXx4 work 8 uart_pkg 0 22 12=MLAdKf3g`OOW`^<aI23
+Z4 !s110 1785597363
+!i10b 1
+!s100 0][^]=U6FKd6_R:zFF@ak2
+IlcWaGC`;_ZLfm?[PA>L`=2
+S1
+R0
+w1785597359
+8uart_logic.sv
+Fuart_logic.sv
+!i122 3
+L0 2 710
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2024.1;79
+r1
+!s85 0
+31
+Z7 !s108 1785597363.000000
+!s107 uart_top.sv|uart_regs.sv|uart_logic.sv|uart_pkg.sv|
+Z8 !s90 uart_pkg.sv|uart_logic.sv|uart_regs.sv|uart_top.sv|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+Xuart_pkg
+R1
+R2
+R4
+!i10b 1
+!s100 HSMTAJgi<78]ZkZN7oNLn2
+I12=MLAdKf3g`OOW`^<aI23
+S1
+R0
+w1785595106
+8uart_pkg.sv
+Fuart_pkg.sv
+!i122 3
+L0 3 0
+V12=MLAdKf3g`OOW`^<aI23
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 uart_top.sv|uart_regs.sv|uart_logic.sv|uart_pkg.sv|
+R8
+!i113 0
+R9
+R10
+vuart_regs
+R1
+R2
+R3
+R4
+!i10b 1
+!s100 A<>XBV0i0PKMo^f?neW>d2
+IIPHIg`^W:G7PFO[4]B3?]1
+S1
+R0
+w1785597054
+8uart_regs.sv
+Fuart_regs.sv
+!i122 3
+L0 2 329
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vuart_top
+R1
+R2
+R3
+R4
+!i10b 1
+!s100 W86j1=:bDkmUgo5Eno^4@3
+IUI@3D[>UV`68;oj4;:;g33
+S1
+R0
+w1785596624
+8uart_top.sv
+Fuart_top.sv
+!i122 3
+L0 2 154
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
