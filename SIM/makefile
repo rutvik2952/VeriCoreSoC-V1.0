@@ -84,3 +84,4 @@ soc_rtl =  $(common_rtl) $(apb_rtl) $(memory_rtl) $(bootrom_rtl) $(dma_rtl) $(gp
 
 comp:
 	vlog $(soc_rtl)
+
