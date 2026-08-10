@@ -1,0 +1,1751 @@
+m255
+K4
+z2
+!s11f vlog 2021.2_1 2021.05, May 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/rutvik/SoC_Project/VeriCoreSoC-V1.0/SIM
+vapb_decoder_logic
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 !s110 1786381915
+!i10b 1
+!s100 cH[IJZC4iFfTa3V0RkWLO2
+IBm28_EQg]@fjC@mi=z3SF2
+S1
+Z3 d/home/rutvik/SoC_Project/SOC/SIM
+Z4 w1786297428
+8../RTL/APB/apb_decoder.sv
+F../RTL/APB/apb_decoder.sv
+!i122 7
+L0 2 49
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.2_1;73
+r1
+!s85 0
+31
+Z7 !s108 1786381915.000000
+!s107 ../RTL/SOC_TOP/soc_top.sv|../RTL/UART/uart_top.sv|../RTL/UART/uart_logic.sv|../RTL/UART/uart_regs.sv|../RTL/UART/uart_pkg.sv|../RTL/TIMER/timer_top.sv|../RTL/TIMER/timer_logic.sv|../RTL/TIMER/timer_reg.sv|../RTL/TIMER/timer_pkg.sv|../RTL/sycctrl/sysctrl_top.sv|../RTL/sycctrl/sysctrl_logic.sv|../RTL/sycctrl/sysctrl_regs.sv|../RTL/sycctrl/sysctrl_pkg.sv|../RTL/SPI/spi_top.sv|../RTL/SPI/spi_logic.sv|../RTL/SPI/spi_reg.sv|../RTL/SPI/spi_pkg.sv|../RTL/INTC/intc_top.sv|../RTL/INTC/intc_logic.sv|../RTL/INTC/intc_reg.sv|../RTL/INTC/intc_pkg.sv|../RTL/I2C/i2c_top.sv|../RTL/I2C/i2c_logic.sv|../RTL/I2C/i2c_regs.sv|../RTL/I2C/i2c_pkg.sv|../RTL/CPU/cpu_top.sv|../RTL/CPU/cpu_apb_master.sv|../RTL/CPU/cpu_interrupt.sv|../RTL/CPU/cpu_execute.sv|../RTL/CPU/cpu_decoder.sv|../RTL/CPU/cpu_fetch.sv|../RTL/CPU/cpu_alu.sv|../RTL/CPU/cpu_pc.sv|../RTL/CPU/cpu_regfile.sv|../RTL/CPU/cpu_pkg.sv|../RTL/GPIO/gpio_top.sv|../RTL/GPIO/gpio_logic.sv|../RTL/GPIO/gpio_reg.sv|../RTL/GPIO/gpio_pkg.sv|../RTL/DMA/dma_top.sv|../RTL/DMA/dma_logic.sv|../RTL/DMA/dma_regs.sv|../RTL/DMA/dma_pkg.sv|../RTL/Bootrom/bootrom_top.sv|../RTL/Bootrom/bootrom_logic.sv|../RTL/Bootrom/bootrom_reg.sv|../RTL/Bootrom/bootrom_pkg.sv|../RTL/Memmory/memeory_decoder.sv|../RTL/Memmory/instruction_ram.sv|../RTL/Memmory/fifo_ram.sv|../RTL/Memmory/dma_ram.sv|../RTL/Memmory/data_ram.sv|../RTL/Memmory/generic_ram.sv|../RTL/Memmory/memory_pkg.sv|../RTL/APB/apb_interconnect.sv|../RTL/APB/apb_mux.sv|../RTL/APB/apb_default_slave.sv|../RTL/APB/apb_decoder.sv|../RTL/APB/apb_slave.sv|../RTL/APB/apb_master.sv|../RTL/common/bus_arbiter.sv|../RTL/common/soc_pkg.sv|../RTL/common/common_pkg.sv|../RTL/common/apb_pkg.sv|
+Z8 !s90 ../RTL/common/apb_pkg.sv|../RTL/common/common_pkg.sv|../RTL/common/soc_pkg.sv|../RTL/common/bus_arbiter.sv|../RTL/APB/apb_master.sv|../RTL/APB/apb_slave.sv|../RTL/APB/apb_decoder.sv|../RTL/APB/apb_default_slave.sv|../RTL/APB/apb_mux.sv|../RTL/APB/apb_interconnect.sv|../RTL/Memmory/memory_pkg.sv|../RTL/Memmory/generic_ram.sv|../RTL/Memmory/data_ram.sv|../RTL/Memmory/dma_ram.sv|../RTL/Memmory/fifo_ram.sv|../RTL/Memmory/instruction_ram.sv|../RTL/Memmory/memeory_decoder.sv|../RTL/Bootrom/bootrom_pkg.sv|../RTL/Bootrom/bootrom_reg.sv|../RTL/Bootrom/bootrom_logic.sv|../RTL/Bootrom/bootrom_top.sv|../RTL/DMA/dma_pkg.sv|../RTL/DMA/dma_regs.sv|../RTL/DMA/dma_logic.sv|../RTL/DMA/dma_top.sv|../RTL/GPIO/gpio_pkg.sv|../RTL/GPIO/gpio_reg.sv|../RTL/GPIO/gpio_logic.sv|../RTL/GPIO/gpio_top.sv|../RTL/CPU/cpu_pkg.sv|../RTL/CPU/cpu_regfile.sv|../RTL/CPU/cpu_pc.sv|../RTL/CPU/cpu_alu.sv|../RTL/CPU/cpu_fetch.sv|../RTL/CPU/cpu_decoder.sv|../RTL/CPU/cpu_execute.sv|../RTL/CPU/cpu_interrupt.sv|../RTL/CPU/cpu_apb_master.sv|../RTL/CPU/cpu_top.sv|../RTL/I2C/i2c_pkg.sv|../RTL/I2C/i2c_regs.sv|../RTL/I2C/i2c_logic.sv|../RTL/I2C/i2c_top.sv|../RTL/INTC/intc_pkg.sv|../RTL/INTC/intc_reg.sv|../RTL/INTC/intc_logic.sv|../RTL/INTC/intc_top.sv|../RTL/SPI/spi_pkg.sv|../RTL/SPI/spi_reg.sv|../RTL/SPI/spi_logic.sv|../RTL/SPI/spi_top.sv|../RTL/sycctrl/sysctrl_pkg.sv|../RTL/sycctrl/sysctrl_regs.sv|../RTL/sycctrl/sysctrl_logic.sv|../RTL/sycctrl/sysctrl_top.sv|../RTL/TIMER/timer_pkg.sv|../RTL/TIMER/timer_reg.sv|../RTL/TIMER/timer_logic.sv|../RTL/TIMER/timer_top.sv|../RTL/UART/uart_pkg.sv|../RTL/UART/uart_regs.sv|../RTL/UART/uart_logic.sv|../RTL/UART/uart_top.sv|../RTL/SOC_TOP/soc_top.sv|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+vapb_default_slave
+R1
+R2
+!i10b 1
+!s100 I3NIkWHY^Tb]>Vz?;V<gm1
+II>B>0<D]C:9kI_gg747OY0
+S1
+R3
+R4
+8../RTL/APB/apb_default_slave.sv
+F../RTL/APB/apb_default_slave.sv
+!i122 7
+L0 1 250
+R5
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 ../RTL/SOC_TOP/soc_top.sv|../RTL/UART/uart_top.sv|../RTL/UART/uart_logic.sv|../RTL/UART/uart_regs.sv|../RTL/UART/uart_pkg.sv|../RTL/TIMER/timer_top.sv|../RTL/TIMER/timer_logic.sv|../RTL/TIMER/timer_reg.sv|../RTL/TIMER/timer_pkg.sv|../RTL/sycctrl/sysctrl_top.sv|../RTL/sycctrl/sysctrl_logic.sv|../RTL/sycctrl/sysctrl_regs.sv|../RTL/sycctrl/sysctrl_pkg.sv|../RTL/SPI/spi_top.sv|../RTL/SPI/spi_logic.sv|../RTL/SPI/spi_reg.sv|../RTL/SPI/spi_pkg.sv|../RTL/INTC/intc_top.sv|../RTL/INTC/intc_logic.sv|../RTL/INTC/intc_reg.sv|../RTL/INTC/intc_pkg.sv|../RTL/I2C/i2c_top.sv|../RTL/I2C/i2c_logic.sv|../RTL/I2C/i2c_regs.sv|../RTL/I2C/i2c_pkg.sv|../RTL/CPU/cpu_top.sv|../RTL/CPU/cpu_apb_master.sv|../RTL/CPU/cpu_interrupt.sv|../RTL/CPU/cpu_execute.sv|../RTL/CPU/cpu_decoder.sv|../RTL/CPU/cpu_fetch.sv|../RTL/CPU/cpu_alu.sv|../RTL/CPU/cpu_pc.sv|../RTL/CPU/cpu_regfile.sv|../RTL/CPU/cpu_pkg.sv|../RTL/GPIO/gpio_top.sv|../RTL/GPIO/gpio_logic.sv|../RTL/GPIO/gpio_reg.sv|../RTL/GPIO/gpio_pkg.sv|../RTL/DMA/dma_top.sv|../RTL/DMA/dma_logic.sv|../RTL/DMA/dma_regs.sv|../RTL/DMA/dma_pkg.sv|../RTL/Bootrom/bootrom_top.sv|../RTL/Bootrom/bootrom_logic.sv|../RTL/Bootrom/bootrom_reg.sv|../RTL/Bootrom/bootrom_pkg.sv|../RTL/Memmory/memeory_decoder.sv|../RTL/Memmory/instruction_ram.sv|../RTL/Memmory/fifo_ram.sv|../RTL/Memmory/dma_ram.sv|../RTL/Memmory/data_ram.sv|../RTL/Memmory/generic_ram.sv|../RTL/Memmory/memory_pkg.sv|../RTL/APB/apb_interconnect.sv|../RTL/APB/apb_mux.sv|../RTL/APB/apb_default_slave.sv|../RTL/APB/apb_decoder.sv|../RTL/APB/apb_slave.sv|../RTL/APB/apb_master.sv|../RTL/common/bus_arbiter.sv|../RTL/common/soc_pkg.sv|../RTL/common/common_pkg.sv|../RTL/common/apb_pkg.sv|
+R8
+!i113 0
+R9
+R10
+vapb_interconnect
+R1
+R2
+!i10b 1
+!s100 KN;EBM5Da02hhBdT]0_:H1
+I6md;I[UQ60HDXYcPJJfA^3
+S1
+R3
+R4
+8../RTL/APB/apb_interconnect.sv
+F../RTL/APB/apb_interconnect.sv
+!i122 7
+L0 2 267
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vapb_master
+R1
+R2
+!i10b 1
+!s100 PP2gE]IWQ1P>i2S?A[?G>0
+I7oM46fbN]hoYGnBaURhl`0
+S1
+R3
+R4
+8../RTL/APB/apb_master.sv
+F../RTL/APB/apb_master.sv
+!i122 7
+L0 3 272
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vapb_mux
+R1
+R2
+!i10b 1
+!s100 45JI<SXBK7Z<BV[d5@1bd3
+IBFZZHk8aKo5eJ2Q1T2on@1
+S1
+R3
+R4
+8../RTL/APB/apb_mux.sv
+F../RTL/APB/apb_mux.sv
+!i122 7
+L0 2 150
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+Xapb_package_sv_unit
+R1
+Z12 !s110 1786381165
+VD>Aenk;6VO1]=k0jLX7DL1
+r1
+!s85 0
+!i10b 1
+!s100 VSOX?J??[6=Y]<^120fSm0
+ID>Aenk;6VO1]=k0jLX7DL1
+!i103 1
+S1
+R3
+Z13 w1786297420
+8../ENV/APB_VIP/apb_package.sv
+F../ENV/APB_VIP/apb_package.sv
+Z14 F../ENV/APB_VIP/apb_interface.sv
+F../ENV/APB_VIP/apb_common.sv
+!i122 5
+Z15 L0 2 0
+R6
+31
+Z16 !s108 1786381165.000000
+Z17 !s107 ../ENV//soc_environment.sv|../ENV//soc_virtual_sequencer.sv|../ENV/APB_VIP/apb_environment.sv|../ENV/APB_VIP/apb_agent.sv|../ENV/APB_VIP/apb_monitor.sv|../ENV/APB_VIP/apb_driver.sv|../ENV/APB_VIP/apb_sequencer.sv|../ENV/APB_VIP/apb_sequence.sv|../ENV/APB_VIP/apb_transaction.sv|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|../ENV/APB_VIP/apb_common.sv|../ENV/APB_VIP/apb_interface.sv|../ENV/soc_env_package.sv|../ENV/APB_VIP/apb_package.sv|
+Z18 !s90 ../ENV/APB_VIP/apb_package.sv|../ENV/soc_env_package.sv|+incdir+../ENV/|
+!i113 0
+R9
+Z19 !s92 +incdir+../ENV/ -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R10
+Xapb_pkg
+R1
+R2
+!i10b 1
+!s100 ^>gjUHLR<QIL^>nNP[I[=1
+Iz;0c_]ITO3XIhk7OME<VX0
+S1
+R3
+R4
+8../RTL/common/apb_pkg.sv
+F../RTL/common/apb_pkg.sv
+!i122 7
+Z20 L0 4 0
+Vz;0c_]ITO3XIhk7OME<VX0
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vapb_slave
+R1
+R2
+!i10b 1
+!s100 A3Qa1[`;jbXN8N?39IQ0L0
+I11dQ>TfUP9hebk<C4VSG>0
+S1
+R3
+R4
+8../RTL/APB/apb_slave.sv
+F../RTL/APB/apb_slave.sv
+!i122 7
+L0 3 200
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+Yapb_vif
+R1
+DXx4 work 19 apb_package_sv_unit 0 22 D>Aenk;6VO1]=k0jLX7DL1
+R12
+R5
+r1
+!s85 0
+!i10b 1
+!s100 z9B7^^BfDQE[:cSX=C]h42
+IV^S^j=11oRGn`LWj6HCUD1
+!s105 apb_package_sv_unit
+S1
+R3
+R13
+8../ENV/APB_VIP/apb_interface.sv
+R14
+!i122 5
+L0 6 0
+R6
+31
+R16
+R17
+R18
+!i113 0
+R9
+R19
+R10
+vbootrom_logic
+R1
+Z21 DXx4 work 11 bootrom_pkg 0 22 GD5^SJo22O1J8gCE:3B4O0
+R2
+!i10b 1
+!s100 HLac^:h;9z35Te8Ji4?m>3
+IPE5ci=>k<JHDQMCJkzg@o0
+S1
+R3
+R4
+8../RTL/Bootrom/bootrom_logic.sv
+F../RTL/Bootrom/bootrom_logic.sv
+!i122 7
+L0 1 54
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+Xbootrom_pkg
+R1
+R2
+!i10b 1
+!s100 2PlWShP:;gBPNc=2V:jNm2
+IGD5^SJo22O1J8gCE:3B4O0
+S1
+R3
+R4
+8../RTL/Bootrom/bootrom_pkg.sv
+F../RTL/Bootrom/bootrom_pkg.sv
+!i122 7
+Z22 L0 3 0
+VGD5^SJo22O1J8gCE:3B4O0
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vbootrom_regs
+R1
+R21
+R2
+!i10b 1
+!s100 5@32:Z`UVASDb<I4z9dIU1
+IlV8S`jj=1Jd==^PYGB7]l2
+S1
+R3
+R4
+8../RTL/Bootrom/bootrom_reg.sv
+F../RTL/Bootrom/bootrom_reg.sv
+!i122 7
+L0 3 29
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vbootrom_top
+R1
+R21
+R2
+!i10b 1
+!s100 zJGQT8Tfcg1@;J4f0E4T;3
+Ia1BTSQT^Fd7TZcVlBVWD`0
+S1
+R3
+R4
+8../RTL/Bootrom/bootrom_top.sv
+F../RTL/Bootrom/bootrom_top.sv
+!i122 7
+L0 1 68
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vbus_arbiter
+R1
+R2
+!i10b 1
+!s100 =C]5X46ddB=o>mG4QLSGX3
+ImVQ<6hONCH_QaEB[08E<m3
+S1
+R3
+R4
+8../RTL/common/bus_arbiter.sv
+F../RTL/common/bus_arbiter.sv
+!i122 7
+L0 1 193
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+Xcommon_pkg
+R1
+R2
+!i10b 1
+!s100 zU:dUilC1aV:?LZiaZHYC3
+I=TBFNUBo<>]lVGfH?Sgk71
+S1
+R3
+R4
+8../RTL/common/common_pkg.sv
+F../RTL/common/common_pkg.sv
+!i122 7
+R20
+V=TBFNUBo<>]lVGfH?Sgk71
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vcpu_alu
+R1
+Z23 DXx4 work 7 cpu_pkg 0 22 >DWQAEzG2dKT^@NSC74I>1
+R2
+!i10b 1
+!s100 4:U;=]B1lOP?1L@;b@7IO2
+IMEMQeT0o9<HYC6KGKzg1D0
+S1
+R3
+R4
+8../RTL/CPU/cpu_alu.sv
+F../RTL/CPU/cpu_alu.sv
+!i122 7
+L0 2 342
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vcpu_apb_master
+R1
+R2
+!i10b 1
+!s100 FWbl6]Z=Yj6`nhmZHR3h93
+I`dG;zaDSaMB@[>NbnAiIh0
+S1
+R3
+R4
+8../RTL/CPU/cpu_apb_master.sv
+F../RTL/CPU/cpu_apb_master.sv
+!i122 7
+L0 1 186
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vcpu_decoder
+R1
+R23
+R2
+!i10b 1
+!s100 AnX]W248F1mPJBgLg:SI63
+IJSCQ?0^34BgXoJFLHLne[1
+S1
+R3
+R4
+8../RTL/CPU/cpu_decoder.sv
+F../RTL/CPU/cpu_decoder.sv
+!i122 7
+L0 3 283
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vcpu_execute
+R1
+R23
+R2
+!i10b 1
+!s100 Xin;TUmR6dRAKJih^YZOS2
+Ij9@E45RXN8L7o7GD@O=8_2
+S1
+R3
+R4
+8../RTL/CPU/cpu_execute.sv
+F../RTL/CPU/cpu_execute.sv
+!i122 7
+L0 1 312
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vcpu_fetch
+R1
+R23
+R2
+!i10b 1
+!s100 ONZ:mAhIg<GPf]FMEN>P>0
+IU@Tch7e`nf4OE9fLVkO_n3
+S1
+R3
+R4
+8../RTL/CPU/cpu_fetch.sv
+F../RTL/CPU/cpu_fetch.sv
+!i122 7
+L0 2 235
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vcpu_interrupt
+R1
+R2
+!i10b 1
+!s100 b3CCZ]K17VUk==69U_NFC1
+Ik1XTVTN2Y8]alH4Bd_B6P0
+S1
+R3
+R4
+8../RTL/CPU/cpu_interrupt.sv
+F../RTL/CPU/cpu_interrupt.sv
+!i122 7
+L0 2 228
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vcpu_pc
+R1
+R23
+R2
+!i10b 1
+!s100 @NA7JR_KV>PVmYo<D?i<51
+In@0X2eZW:<RkgGLj@_VP81
+S1
+R3
+R4
+8../RTL/CPU/cpu_pc.sv
+F../RTL/CPU/cpu_pc.sv
+!i122 7
+L0 2 250
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+Xcpu_pkg
+R1
+R2
+!i10b 1
+!s100 3CijDS@MR<5hdh`jD^lFM0
+I>DWQAEzG2dKT^@NSC74I>1
+S1
+R3
+R4
+8../RTL/CPU/cpu_pkg.sv
+F../RTL/CPU/cpu_pkg.sv
+!i122 7
+R20
+V>DWQAEzG2dKT^@NSC74I>1
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vcpu_regfile
+R1
+R2
+!i10b 1
+!s100 J;l6ZASj?E`fJLRROnV_E3
+I7VNP964O:F9H?i@QXV:lh1
+S1
+R3
+R4
+8../RTL/CPU/cpu_regfile.sv
+F../RTL/CPU/cpu_regfile.sv
+!i122 7
+Z24 L0 2 299
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vcpu_top
+R1
+R23
+R2
+!i10b 1
+!s100 bWS=z:^ZDk7UOTM]?aDm32
+ID_>XWV;n?:Wg@AOHXk8IM3
+S1
+R3
+R4
+8../RTL/CPU/cpu_top.sv
+F../RTL/CPU/cpu_top.sv
+!i122 7
+L0 1 490
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vdata_ram
+R1
+R2
+!i10b 1
+!s100 Z0:c5CjDWz@h=HK92CzUW3
+I?]HdLh<1GVUJ0UWZ^MZZ<2
+S1
+R3
+R4
+8../RTL/Memmory/data_ram.sv
+F../RTL/Memmory/data_ram.sv
+!i122 7
+L0 1 240
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vdma_logic
+R1
+Z25 DXx4 work 7 dma_pkg 0 22 m5cB_;^_RcFR00fWKP``Z3
+R2
+!i10b 1
+!s100 OjZOVVijLlC?TA2FEfYWF3
+IFFY;ja0YTh5X@Qof<he2L0
+S1
+R3
+R4
+8../RTL/DMA/dma_logic.sv
+F../RTL/DMA/dma_logic.sv
+!i122 7
+L0 1 149
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+Xdma_pkg
+R1
+R2
+!i10b 1
+!s100 j^fONQC6AI[iESI29`dRi1
+Im5cB_;^_RcFR00fWKP``Z3
+S1
+R3
+R4
+8../RTL/DMA/dma_pkg.sv
+F../RTL/DMA/dma_pkg.sv
+!i122 7
+R22
+Vm5cB_;^_RcFR00fWKP``Z3
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vdma_ram
+R1
+R2
+!i10b 1
+!s100 76Di;6kNLD0=QH]e^jL]d3
+I9CT7AHJ`ZdeoC8nj60MEY2
+S1
+R3
+R4
+8../RTL/Memmory/dma_ram.sv
+F../RTL/Memmory/dma_ram.sv
+!i122 7
+L0 1 309
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vdma_regs
+R1
+R25
+R2
+!i10b 1
+!s100 InK0eI`@I:@2cC_4hCl?^3
+IQdYa>_8>ZHL@DnnCHhQ<U3
+S1
+R3
+R4
+8../RTL/DMA/dma_regs.sv
+F../RTL/DMA/dma_regs.sv
+!i122 7
+Z26 L0 1 113
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vdma_top
+R1
+R25
+R2
+!i10b 1
+!s100 oHP[mCi2OQj::XP]8Po]>3
+IKHe]6ValT1JZHD7Reae672
+S1
+R3
+R4
+8../RTL/DMA/dma_top.sv
+F../RTL/DMA/dma_top.sv
+!i122 7
+L0 2 113
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vfifo_ram
+R1
+R2
+!i10b 1
+!s100 TTAd>0<Ne5@J:A_M7Om241
+IHjj_<aS;PXD]P_ohO;InC0
+S1
+R3
+R4
+8../RTL/Memmory/fifo_ram.sv
+F../RTL/Memmory/fifo_ram.sv
+!i122 7
+L0 1 384
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vgeneric_ram
+R1
+R2
+!i10b 1
+!s100 @JZR4^;lKJ@:ZG_GAm2B41
+I@ZNz;>g^e`dzOPlJ;IU<o0
+S1
+R3
+R4
+8../RTL/Memmory/generic_ram.sv
+F../RTL/Memmory/generic_ram.sv
+!i122 7
+L0 1 264
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vgpio_logic
+R1
+Z27 DXx4 work 8 gpio_pkg 0 22 lZU7jh3XgBzM?IP?bC<Tm3
+R2
+!i10b 1
+!s100 ]IGek5koJ^9bmkXLjI<Zo1
+IT8L7ke@Y4zm<@EVffnC_h0
+S1
+R3
+R4
+8../RTL/GPIO/gpio_logic.sv
+F../RTL/GPIO/gpio_logic.sv
+!i122 7
+L0 2 144
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+Xgpio_pkg
+R1
+R2
+!i10b 1
+!s100 2ejHliQE<jK>QDgfjm;WN3
+IlZU7jh3XgBzM?IP?bC<Tm3
+S1
+R3
+R4
+8../RTL/GPIO/gpio_pkg.sv
+F../RTL/GPIO/gpio_pkg.sv
+!i122 7
+R22
+VlZU7jh3XgBzM?IP?bC<Tm3
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vgpio_regs
+R1
+R27
+R2
+!i10b 1
+!s100 3@b1fX33M_C<N]>8QCKE_0
+I_k;dL>UOgS:5^9YkRlAd:1
+S1
+R3
+R4
+8../RTL/GPIO/gpio_reg.sv
+F../RTL/GPIO/gpio_reg.sv
+!i122 7
+Z28 L0 2 253
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vgpio_top
+R1
+R27
+R2
+!i10b 1
+!s100 ^2i8IAe?<>0FjFY9m@coB0
+Im6a@1<e3P`TaeA]FzQ_OA3
+S1
+R3
+R4
+8../RTL/GPIO/gpio_top.sv
+F../RTL/GPIO/gpio_top.sv
+!i122 7
+L0 2 236
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vi2c_logic
+R1
+Z29 DXx4 work 7 i2c_pkg 0 22 g53g`?zM;CEX[27j6eHPS3
+R2
+!i10b 1
+!s100 =7eRg_AlVVzA=nOdlA^7:0
+Ih1z`IR5eGV[[0K_<95ZH61
+S1
+R3
+R4
+8../RTL/I2C/i2c_logic.sv
+F../RTL/I2C/i2c_logic.sv
+!i122 7
+L0 1 169
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+Xi2c_pkg
+R1
+R2
+!i10b 1
+!s100 YLgmXUWL8IZ7MHijYIz]]0
+Ig53g`?zM;CEX[27j6eHPS3
+S1
+R3
+R4
+8../RTL/I2C/i2c_pkg.sv
+F../RTL/I2C/i2c_pkg.sv
+!i122 7
+R22
+Vg53g`?zM;CEX[27j6eHPS3
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vi2c_regs
+R1
+R29
+R2
+!i10b 1
+!s100 R6=[e<mUU]9n:0BGo1ldB2
+ISBnP5aV5?B^jYHdX]RZUF2
+S1
+R3
+R4
+8../RTL/I2C/i2c_regs.sv
+F../RTL/I2C/i2c_regs.sv
+!i122 7
+L0 2 114
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vi2c_top
+R1
+R29
+R2
+!i10b 1
+!s100 TkGaGlRfBjOVmmF]OLo7K2
+IYK1oVT2Fi[IVQ<`LnJ6=m2
+S1
+R3
+R4
+8../RTL/I2C/i2c_top.sv
+F../RTL/I2C/i2c_top.sv
+!i122 7
+L0 1 116
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vinstruction_ram
+R1
+R2
+!i10b 1
+!s100 VR?=md46Oi@3[d_kFQlX>2
+ICPBRD`]FjFYI2Q0;KWV=G1
+S1
+R3
+R4
+8../RTL/Memmory/instruction_ram.sv
+F../RTL/Memmory/instruction_ram.sv
+!i122 7
+L0 1 189
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vintc_logic
+R1
+R2
+!i10b 1
+!s100 2ijh?GD=Q<c;00[U?Q@jH3
+IGj?CSS<aZSeE?TedmzDJl3
+S1
+R3
+R4
+8../RTL/INTC/intc_logic.sv
+F../RTL/INTC/intc_logic.sv
+!i122 7
+L0 1 49
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+Xintc_pkg
+R1
+R2
+!i10b 1
+!s100 lC7?kf1R_T63>n3?5I=CV2
+IOMmoZkIHO`T78YaijdmmR3
+S1
+R3
+R4
+8../RTL/INTC/intc_pkg.sv
+F../RTL/INTC/intc_pkg.sv
+!i122 7
+R22
+VOMmoZkIHO`T78YaijdmmR3
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vintc_regs
+R1
+Z30 DXx4 work 8 intc_pkg 0 22 OMmoZkIHO`T78YaijdmmR3
+R2
+!i10b 1
+!s100 1ZZCZmhkQcWzYhPJE@?382
+IihL5j:[cU2M@=_aC90=l_2
+S1
+R3
+R4
+8../RTL/INTC/intc_reg.sv
+F../RTL/INTC/intc_reg.sv
+!i122 7
+L0 1 82
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vintc_top
+R1
+R30
+R2
+!i10b 1
+!s100 UeTe3;_DdZLnWI<a9`fLW0
+I@4N>CB@em?6=kT`84DV2M3
+S1
+R3
+R4
+8../RTL/INTC/intc_top.sv
+F../RTL/INTC/intc_top.sv
+!i122 7
+L0 2 83
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vmemory_decoder
+R1
+R2
+!i10b 1
+!s100 DhFR`Cc_:kia`W<RClC^d2
+IS`UI^207YcOkYCn4nY;G=1
+S1
+R3
+R4
+8../RTL/Memmory/memeory_decoder.sv
+F../RTL/Memmory/memeory_decoder.sv
+!i122 7
+R26
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+Xmemory_pkg
+R1
+R2
+!i10b 1
+!s100 XW1I01EMP8]]UKkBTc0Bc3
+I`Rb=m0ldiA]in6AVg;I223
+S1
+R3
+R4
+8../RTL/Memmory/memory_pkg.sv
+F../RTL/Memmory/memory_pkg.sv
+!i122 7
+R20
+V`Rb=m0ldiA]in6AVg;I223
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+Xsoc_env_pkg
+R1
+Z31 DXx6 mtiUvm 7 uvm_pkg 0 22 8V[`8]Q0W57le7Z>zYaAj1
+DXx4 work 7 apb_pkg 0 22 L_VQ2gISLYVgGd<fmQHcl2
+!s110 1786381166
+!i10b 1
+!s100 =c=fNjflPRGUE=:[>FGgg2
+I<HkbC8Eb3Y=VZ7BIO;KZO2
+S1
+R3
+R13
+8../ENV/soc_env_package.sv
+F../ENV/soc_env_package.sv
+Z32 F/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+Z33 F/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+Z34 F/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+Z35 F/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+Z36 F/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+Z37 F/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+Z38 F/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+Z39 F/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+Z40 F/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+Z41 F/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+Z42 F/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+Z43 F/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+F../ENV//soc_virtual_sequencer.sv
+F../ENV//soc_environment.sv
+!i122 5
+R20
+V<HkbC8Eb3Y=VZ7BIO;KZO2
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R9
+R19
+R10
+Xsoc_pkg
+R1
+R2
+!i10b 1
+!s100 Y`b4K7bb?e5lckbiG9`km3
+IN[3STcPG`?7eZg;Oml1C:0
+S1
+R3
+R4
+8../RTL/common/soc_pkg.sv
+F../RTL/common/soc_pkg.sv
+!i122 7
+R20
+VN[3STcPG`?7eZg;Oml1C:0
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+Xsoc_seq_pkg
+R1
+R31
+DXx4 work 7 apb_pkg 0 22 ZYFOgXG4AaP0LYiiR=RQ12
+DXx4 work 11 soc_env_pkg 0 22 mZJCz9on3KU`aCofO<03I0
+!s110 1786297244
+!i10b 1
+!s100 Re_P7B526DeJ_SU5eDV3S3
+Ijo2`6UP?KQ@U4h@AflcV82
+S1
+R0
+w1786297240
+8../SEQLIB/soc_seq_package.sv
+F../SEQLIB/soc_seq_package.sv
+R32
+R33
+R34
+R35
+R36
+R37
+R38
+R39
+R40
+R41
+R42
+R43
+F../SEQLIB/soc_virtual_sequence.sv
+!i122 3
+R20
+Vjo2`6UP?KQ@U4h@AflcV82
+R6
+r1
+!s85 0
+31
+!s108 1786297243.000000
+!s107 ../SEQLIB/soc_virtual_sequence.sv|../ENV/soc_environment.sv|../ENV/soc_virtual_sequencer.sv|../ENV/APB_VIP/apb_environment.sv|../ENV/APB_VIP/apb_agent.sv|../ENV/APB_VIP/apb_monitor.sv|../ENV/APB_VIP/apb_driver.sv|../ENV/APB_VIP/apb_sequencer.sv|../ENV/APB_VIP/apb_sequence.sv|../ENV/APB_VIP/apb_transaction.sv|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/home/rutvik/mentor/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|../ENV/APB_VIP/apb_common.sv|../ENV/APB_VIP/apb_interface.sv|../SEQLIB/soc_seq_package.sv|../ENV/soc_env_package.sv|../ENV/APB_VIP/apb_package.sv|
+!s90 ../ENV/APB_VIP/apb_package.sv|../ENV/soc_env_package.sv|../SEQLIB/soc_seq_package.sv|+incdir+../ENV|+incdir+../SEQLIB|
+!i113 0
+R9
+!s92 +incdir+../ENV +incdir+../SEQLIB -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R10
+vsoc_top
+R1
+R1
+Z44 DXx4 work 7 soc_pkg 0 22 N[3STcPG`?7eZg;Oml1C:0
+Z45 DXx4 work 11 sysctrl_pkg 0 22 C2?7PX:V>IjoDF^Mb<4DF3
+R2
+!i10b 1
+!s100 QDS9W>8?=o][;7__3DC`11
+Ioc[=;T<_6_F:_=djfU>6W3
+S1
+R3
+w1786381912
+8../RTL/SOC_TOP/soc_top.sv
+F../RTL/SOC_TOP/soc_top.sv
+!i122 7
+L0 1 1673
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vspi_logic
+R1
+Z46 DXx4 work 7 spi_pkg 0 22 g8D>C@F0LZEZ`_39FHeY80
+R2
+!i10b 1
+!s100 JkoGeZHGUhURB990GaFB=3
+IJZ6EXZ_46VS;lj`QBZdNh2
+S1
+R3
+R4
+8../RTL/SPI/spi_logic.sv
+F../RTL/SPI/spi_logic.sv
+!i122 7
+L0 1 423
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+Xspi_pkg
+R1
+R2
+!i10b 1
+!s100 9jNaz1Mj=MA^HH;5CZ9nh0
+Ig8D>C@F0LZEZ`_39FHeY80
+S1
+R3
+R4
+8../RTL/SPI/spi_pkg.sv
+F../RTL/SPI/spi_pkg.sv
+!i122 7
+R15
+Vg8D>C@F0LZEZ`_39FHeY80
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vspi_regs
+R1
+R46
+R2
+!i10b 1
+!s100 KHDF1jPRnK]KO0=HI:7ml3
+I3>m^d825KS3P=Z[6e9=9l3
+S1
+R3
+R4
+8../RTL/SPI/spi_reg.sv
+F../RTL/SPI/spi_reg.sv
+!i122 7
+L0 2 217
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vspi_top
+R1
+R46
+R2
+!i10b 1
+!s100 dj:<3Hj]^@`H>Jo1=S4cB0
+IPKC:jIElm[3=S@UlFD3_O2
+S1
+R3
+R4
+8../RTL/SPI/spi_top.sv
+F../RTL/SPI/spi_top.sv
+!i122 7
+L0 1 146
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vsysctrl_logic
+R1
+R44
+R45
+R2
+!i10b 1
+!s100 Kd4^I29VhEF36z47SY38Y1
+Idf@V]ZoQeZIgT5INFU0mz0
+S1
+R3
+R4
+8../RTL/sycctrl/sysctrl_logic.sv
+F../RTL/sycctrl/sysctrl_logic.sv
+!i122 7
+L0 2 256
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+Xsysctrl_pkg
+R1
+R44
+R2
+!i10b 1
+!s100 ;]bgE?3N5I0`hD^<LH[WF1
+IC2?7PX:V>IjoDF^Mb<4DF3
+S1
+R3
+R4
+8../RTL/sycctrl/sysctrl_pkg.sv
+F../RTL/sycctrl/sysctrl_pkg.sv
+!i122 7
+R22
+VC2?7PX:V>IjoDF^Mb<4DF3
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vsysctrl_regs
+R1
+R44
+R45
+R2
+!i10b 1
+!s100 YBiFR0:G>5LL^7_mdZ;1f1
+I8J6GlN7DDn:GF=5:eojmi1
+S1
+R3
+R4
+8../RTL/sycctrl/sysctrl_regs.sv
+F../RTL/sycctrl/sysctrl_regs.sv
+!i122 7
+L0 2 268
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vsysctrl_top
+R1
+R44
+R45
+R2
+!i10b 1
+!s100 BTOVGjlS:jU5QcIYF6^lF1
+IRN_I?Vbzz4Vh>^D7[MgK;0
+S1
+R3
+R4
+8../RTL/sycctrl/sysctrl_top.sv
+F../RTL/sycctrl/sysctrl_top.sv
+!i122 7
+R24
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vtimer_logic
+R1
+Z47 DXx4 work 9 timer_pkg 0 22 RT?kX4900l:Uh?]jDiT>m1
+R2
+!i10b 1
+!s100 NgTRlhd2W;P_6<7DcUJKh2
+I2]lF[G6azDlH09H>6U2lB1
+S1
+R3
+R4
+8../RTL/TIMER/timer_logic.sv
+F../RTL/TIMER/timer_logic.sv
+!i122 7
+L0 2 252
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+Xtimer_pkg
+R1
+R2
+!i10b 1
+!s100 l;FE31BXj1hWD2e]b`KF52
+IRT?kX4900l:Uh?]jDiT>m1
+S1
+R3
+R4
+8../RTL/TIMER/timer_pkg.sv
+F../RTL/TIMER/timer_pkg.sv
+!i122 7
+R15
+VRT?kX4900l:Uh?]jDiT>m1
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+Xtimer_reg_sv_unit
+R1
+R47
+R2
+VeE=]FXA^hLRZH`;:^kB8I1
+r1
+!s85 0
+!i10b 1
+!s100 ^:i]OFQ:KI1zFWoN=I3;I2
+IeE=]FXA^hLRZH`;:^kB8I1
+!i103 1
+S1
+R3
+R4
+Z48 8../RTL/TIMER/timer_reg.sv
+Z49 F../RTL/TIMER/timer_reg.sv
+!i122 7
+L0 1 0
+R6
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vtimer_regs
+R1
+R47
+DXx4 work 17 timer_reg_sv_unit 0 22 eE=]FXA^hLRZH`;:^kB8I1
+R2
+R5
+r1
+!s85 0
+!i10b 1
+!s100 @Sf<zbGK6D:EHb1na_<I]1
+IDm;f8=RajJLHWFBh29R8Q1
+!s105 timer_reg_sv_unit
+S1
+R3
+R4
+R48
+R49
+!i122 7
+L0 3 258
+R6
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vtimer_top
+R1
+R47
+R2
+!i10b 1
+!s100 W<;?D:7Yi@[i2P5D>PVE_3
+IU60?i]fZeUNO;77OPNO[H0
+S1
+R3
+R4
+8../RTL/TIMER/timer_top.sv
+F../RTL/TIMER/timer_top.sv
+!i122 7
+R28
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vuart_logic
+R1
+Z50 DXx4 work 8 uart_pkg 0 22 E>L4AfHUQDW:Tb6D5EIZ83
+R2
+!i10b 1
+!s100 0][^]=U6FKd6_R:zFF@ak2
+I1m^G3Il^PFM?onHZ?N=i=3
+S1
+R3
+R4
+8../RTL/UART/uart_logic.sv
+F../RTL/UART/uart_logic.sv
+!i122 7
+L0 2 710
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+Xuart_pkg
+R1
+R2
+!i10b 1
+!s100 H[de[Y:dEah2kY2N80bBD1
+IE>L4AfHUQDW:Tb6D5EIZ83
+S1
+R3
+R4
+8../RTL/UART/uart_pkg.sv
+F../RTL/UART/uart_pkg.sv
+!i122 7
+R22
+VE>L4AfHUQDW:Tb6D5EIZ83
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vuart_regs
+R1
+R50
+R2
+!i10b 1
+!s100 062]Qed;LzBRY6m2KEjUW1
+ITCO]0fQmhfGJgo[XFe<SF2
+S1
+R3
+R4
+8../RTL/UART/uart_regs.sv
+F../RTL/UART/uart_regs.sv
+!i122 7
+L0 2 329
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vuart_top
+R1
+R50
+R2
+!i10b 1
+!s100 W86j1=:bDkmUgo5Eno^4@3
+I`T7o;Kkdgg@?3P0[KQebL2
+S1
+R3
+R4
+8../RTL/UART/uart_top.sv
+F../RTL/UART/uart_top.sv
+!i122 7
+L0 2 154
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
