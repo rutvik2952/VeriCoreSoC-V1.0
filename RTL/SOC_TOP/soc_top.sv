@@ -1607,12 +1607,12 @@ u_dma
     // Memory Interface
     //--------------------------------------------------------
 
-    .mem_rd_addr (dma_addr),
+    .mem_rd_addr (dma_mem_rd_addr),
 
     .mem_rd_data (dma_rdata),
 
 
-    .mem_wr_addr (dma_addr),
+    .mem_wr_addr (dma_mem_wr_addr),
 
     .mem_wr_data (dma_wdata),
 
@@ -1659,7 +1659,7 @@ begin
 
         ram_re    = 1'b0;
 
-        ram_addr  = dma_addr;
+        ram_addr  = dma_mem_wr_addr;
 
         ram_wdata = dma_wdata;
 
@@ -1671,3 +1671,4 @@ assign dmem_rdata = ram_rdata;
 assign dma_rdata  = ram_rdata;
 
 endmodule 
+

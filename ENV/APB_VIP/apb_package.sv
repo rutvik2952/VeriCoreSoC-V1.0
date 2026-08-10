@@ -3,7 +3,7 @@
 
  `include"apb_interface.sv"
 
- package apb_pkg;
+ package apb_vip_pkg;
 
   import uvm_pkg::*;
   `include"uvm_macros.svh"

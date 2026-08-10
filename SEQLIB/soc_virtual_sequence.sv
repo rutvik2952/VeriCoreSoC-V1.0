@@ -17,8 +17,9 @@
     endfunction
 
     task body();
+      //super.body();
      repeat(10)begin
-     `uvm_do_on(apb_seq.trans,p_sequencer.apb_seqr)
+     `uvm_do_on(apb_seq,p_sequencer.apb_seqr)
      end
     endtask
 

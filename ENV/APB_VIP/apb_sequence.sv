@@ -13,10 +13,11 @@
     apb_trans = apb_transaction::type_id::create("apb_trans");
   endfunction
 
-  task pre_body();
-   super.pre_body();
-   `uvm_info("APB_SEQUENCE", "APB Transaction Start",UVM_LOW)
-  endtask
+  task body();
+   repeat(10)begin
+    `uvm_do(apb_trans);
+   end
+endtask
 
  endclass
 

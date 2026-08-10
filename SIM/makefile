@@ -78,10 +78,22 @@ uart_rtl =	../RTL/UART/uart_pkg.sv \
 	        ../RTL/UART/uart_logic.sv \
 		../RTL/UART/uart_top.sv
 
-soc_top = 	../RTL/SOC_TOP/soc_top.sv
+soc_top_rlt = 	../RTL/SOC_TOP/soc_top.sv
 
-soc_rtl =  $(common_rtl) $(apb_rtl) $(memory_rtl) $(bootrom_rtl) $(dma_rtl) $(gpio_rtl) $(cpu_rtl) $(i2c_rtl) $(intc_rtl) $(spi_rtl) $(sysctrl_rtl) $(timer_rtl) $(uart_rtl) $(soc_top)
+soc_rtl =  $(common_rtl) $(apb_rtl) $(memory_rtl) $(bootrom_rtl) $(dma_rtl) $(gpio_rtl) $(cpu_rtl) $(i2c_rtl) $(intc_rtl) $(spi_rtl) $(sysctrl_rtl) $(timer_rtl) $(uart_rtl) $(soc_top_rlt)
 
+apb_vip_pkg  = ../ENV/APB_VIP/apb_package.sv
+soc_env_pkg  = ../ENV/soc_env_package.sv
+soc_seq_pkg  = ../SEQLIB/soc_seq_package.sv
+soc_test_pkg = ../TEST/soc_test_pkg.sv
+soc_tb_pkg   = $(apb_vip_pkg) $(soc_env_pkg) $(soc_seq_pkg) $(soc_test_pkg)
+
+proj_dir = +incdir+../ENV\
+	   +incdir+../SEQLIB\
+	   +incdir+../TEST
+
+soc_top = ../TOP/soc_tb_top.sv
+ 
 comp:
-	vlog $(soc_rtl)
+	vlog $(soc_rtl) $(soc_tb_pkg) $(soc_top) $(proj_dir)
 

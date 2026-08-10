@@ -4,7 +4,7 @@
   package soc_seq_pkg;
     import uvm_pkg::*;
     `include"uvm_macros.svh"
-    import apb_pkg::*;
+    import apb_vip_pkg::*;
     import soc_env_pkg::*;
     `include"soc_virtual_sequence.sv" 
   

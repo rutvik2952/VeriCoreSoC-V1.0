@@ -1,7 +1,7 @@
 `ifndef APB_SEQUENCER_SV
 `define APB_SEQUENCER_SV
 
- class apb_sequencer extends uvm_sequencer#(apb_base_sequence);
+ class apb_sequencer extends uvm_sequencer#(apb_transaction);
 
    //Factory Registration
    `uvm_component_utils(apb_sequencer)
