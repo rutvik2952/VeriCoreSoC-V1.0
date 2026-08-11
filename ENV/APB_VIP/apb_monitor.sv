@@ -26,7 +26,7 @@
      trans.apb_operation = (vif.PWRITE)? WRITE : READ;
      trans.apb_rd_data   = vif.PRDATA;
      `uvm_info(get_type_name()," APB Monitor Collect Transaction From DUT",UVM_LOW)
-     trans.print();
+      trans.print();
     end
    end
  endtask

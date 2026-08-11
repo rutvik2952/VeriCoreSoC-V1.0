@@ -14,13 +14,15 @@
 
     function new(string name ="soc_virtual_sequence");
       super.new(name);
+      apb_seq = apb_base_sequence::type_id::create("apb_seq");
     endfunction
 
     task body();
-      //super.body();
-     repeat(10)begin
-     `uvm_do_on(apb_seq,p_sequencer.apb_seqr)
-     end
+      `uvm_info(get_type_name(),"Body call",UVM_LOW)
+       repeat(10)begin
+         `uvm_do_on(apb_seq.apb_trans,p_sequencer.apb_seqr)
+         apb_seq.apb_trans.print();
+       end
     endtask
 
   endclass

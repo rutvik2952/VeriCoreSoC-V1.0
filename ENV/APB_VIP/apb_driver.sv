@@ -27,6 +27,7 @@
       send_apb_transaction(req);
    end 
   `uvm_info(get_type_name(),"APB Transaction Complete",UVM_LOW)
+  seq_item_port.item_done();
   end
  endtask
 

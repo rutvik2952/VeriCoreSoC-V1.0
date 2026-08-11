@@ -20,12 +20,12 @@
 
    virtual task run_phase(uvm_phase phase);
      super.run_phase(phase);
-     phase.raise_objection(this);
+      phase.raise_objection(this);
   
        soc_virtual_seqc = soc_virtual_sequence::type_id::create("soc_virtual_seqc");
        soc_virtual_seqc.start(soc_env.vir_seqr);
 
-     phase.drop_objection(this);
+      phase.drop_objection(this);
    endtask
 
  endclass

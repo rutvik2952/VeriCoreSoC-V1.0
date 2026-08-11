@@ -9,15 +9,9 @@
    `uvm_object_utils(apb_base_sequence)
 
   function new(string name ="apb_base_sequence");
-    super.new(name);
-    apb_trans = apb_transaction::type_id::create("apb_trans");
+    super.new(name); 
   endfunction
 
-  task body();
-   repeat(10)begin
-    `uvm_do(apb_trans);
-   end
-endtask
 
  endclass
 
