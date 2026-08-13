@@ -7,6 +7,7 @@
   `include"uvm_macros.svh"
   
    import apb_vip_pkg::*;
+   import spi_reg_pkg::*;
   `include"soc_virtual_sequencer.sv"
   `include"soc_environment.sv"
 

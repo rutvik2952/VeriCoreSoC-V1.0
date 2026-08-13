@@ -83,10 +83,11 @@ soc_top_rlt = 	../RTL/SOC_TOP/soc_top.sv
 soc_rtl =  $(common_rtl) $(apb_rtl) $(memory_rtl) $(bootrom_rtl) $(dma_rtl) $(gpio_rtl) $(cpu_rtl) $(i2c_rtl) $(intc_rtl) $(spi_rtl) $(sysctrl_rtl) $(timer_rtl) $(uart_rtl) $(soc_top_rlt)
 
 apb_vip_pkg  = ../ENV/APB_VIP/apb_package.sv
+spi_reg_pkg  = ../ENV/soc_register_model/SPI_Regs/spi_reg_pkg.sv
 soc_env_pkg  = ../ENV/soc_env_package.sv
 soc_seq_pkg  = ../SEQLIB/soc_seq_package.sv
 soc_test_pkg = ../TEST/soc_test_pkg.sv
-soc_tb_pkg   = $(apb_vip_pkg) $(soc_env_pkg) $(soc_seq_pkg) $(soc_test_pkg)
+soc_tb_pkg   = $(apb_vip_pkg) $(spi_reg_pkg) $(soc_env_pkg) $(soc_seq_pkg) $(soc_test_pkg)
 
 proj_dir = +incdir+../ENV\
 	   +incdir+../SEQLIB\
