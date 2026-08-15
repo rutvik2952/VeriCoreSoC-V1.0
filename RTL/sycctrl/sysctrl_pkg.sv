@@ -44,7 +44,7 @@ package sysctrl_pkg;
 
     parameter logic [31:0] RESET_SYS_CONTROL   = 32'h0000_0000;
 
-    parameter logic [31:0] RESET_CLOCK_ENABLE  = 32'h0000_0001;
+    parameter logic [31:0] RESET_CLOCK_ENABLE  = 32'h0000_0000;
 
     parameter logic [31:0] RESET_RESET_CONTROL = 32'h0000_0000;
 

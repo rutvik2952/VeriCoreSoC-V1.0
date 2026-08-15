@@ -157,6 +157,14 @@ logic uart_clk_en;
 logic spi_clk_en;
 logic i2c_clk_en;
 logic dma_clk_en;
+logic cpu_clk;
+logic gpio_clk;
+logic timer_clk;
+logic uart_clk;
+logic spi_clk;
+logic i2c_clk;
+logic dma_clk;
+
 
 //------------------------------------------------------------------------------
 // GPIO APB Slave Response Signals
@@ -234,6 +242,143 @@ logic [31:0] ram_addr;
 logic [31:0] ram_wdata;
 logic [31:0] ram_rdata;
 
+//------------------------------------------------------------
+// Shared System Bus
+//------------------------------------------------------------
+
+logic        sys_psel;
+logic        sys_penable;
+logic        sys_pwrite;
+
+logic [31:0] sys_paddr;
+logic [31:0] sys_pwdata;
+
+logic [31:0] sys_prdata;
+logic        sys_pready;
+logic        sys_pslverr;
+
+//------------------------------------------------------------
+// APB Peripheral Selects
+//------------------------------------------------------------
+
+logic sysctrl_sel;
+logic gpio_sel;
+logic timer_sel;
+logic uart_sel;
+logic spi_sel;
+logic i2c_sel;
+logic dma_sel;
+logic intc_sel;
+
+logic apb_decode_error;
+
+
+//------------------------------------------------------------
+// SYSCTRL
+//------------------------------------------------------------
+
+sysctrl_top
+u_sysctrl
+(
+    //--------------------------------------------------------
+    // Global Signals
+    //--------------------------------------------------------
+
+    .pclk           (clk),
+
+    .presetn        (rst_n),
+
+
+    //--------------------------------------------------------
+    // APB Slave Interface
+    //--------------------------------------------------------
+
+    .psel           (sysctrl_sel),
+
+    .penable        (sys_penable),
+
+    .pwrite         (sys_pwrite),
+
+    .paddr          (sys_paddr),
+
+    .pwdata         (sys_pwdata),
+
+    .prdata         (sysctrl_prdata),
+
+    .pready         (sysctrl_pready),
+
+    .pslverr        (sysctrl_pslverr),
+
+
+    //--------------------------------------------------------
+    // System Status Inputs
+    //--------------------------------------------------------
+
+    .cpu_running    (cpu_running),
+
+    .irq_pending    (irq_pending),
+
+    .sleep_mode     (sleep_mode),
+
+    .debug_mode     (debug_mode),
+
+
+    //--------------------------------------------------------
+    // System Outputs
+    //--------------------------------------------------------
+
+    .cpu_reset      (cpu_reset),
+
+    .gpio_reset     (gpio_reset),
+
+    .timer_reset    (timer_reset),
+
+    .uart_reset     (uart_reset),
+
+    .spi_reset      (spi_reset),
+
+    .i2c_reset      (i2c_reset),
+
+    .dma_reset      (dma_reset),
+
+
+    //--------------------------------------------------------
+    // Clock Enables
+    //--------------------------------------------------------
+
+    .cpu_clk_en     (cpu_clk_en),
+
+    .gpio_clk_en    (gpio_clk_en),
+
+    .timer_clk_en   (timer_clk_en),
+
+    .uart_clk_en    (uart_clk_en),
+
+    .spi_clk_en     (spi_clk_en),
+
+    .i2c_clk_en     (i2c_clk_en),
+
+    .dma_clk_en     (dma_clk_en),
+
+
+    //--------------------------------------------------------
+    // Boot Mode
+    //--------------------------------------------------------
+
+    .boot_mode      (boot_mode_sel)
+
+);
+//------------------------------------------------------------
+// This cpu_clk, gpio_clk , timer_clk , uart_clk , spi_clk , i2c_clk
+// and dma_clk connect with each peripheral
+//------------------------------------------------------------
+assign cpu_clk     = clk & cpu_clk_en;
+assign gpio_clk    = clk & gpio_clk_en;
+assign timer_clk   = clk & timer_clk_en;
+assign uart_clk    = clk & uart_clk_en;
+assign spi_clk     = clk & spi_clk_en;
+assign i2c_clk     = clk & i2c_clk_en;
+assign dma_clk     = clk & dma_clk_en; 
 
 
 cpu_top
@@ -442,21 +587,6 @@ always_comb begin
     end
 end
 
-//------------------------------------------------------------
-// Shared System Bus
-//------------------------------------------------------------
-
-logic        sys_psel;
-logic        sys_penable;
-logic        sys_pwrite;
-
-logic [31:0] sys_paddr;
-logic [31:0] sys_pwdata;
-
-logic [31:0] sys_prdata;
-logic        sys_pready;
-logic        sys_pslverr;
-
 
 //------------------------------------------------------------
 // Arbitration Status
@@ -539,20 +669,6 @@ u_bus_arbiter
 );
 
 
-//------------------------------------------------------------
-// APB Peripheral Selects
-//------------------------------------------------------------
-
-logic sysctrl_sel;
-logic gpio_sel;
-logic timer_sel;
-logic uart_sel;
-logic spi_sel;
-logic i2c_sel;
-logic dma_sel;
-logic intc_sel;
-
-logic apb_decode_error;
 
 
 //------------------------------------------------------------
@@ -770,101 +886,6 @@ u_apb_mux
 );
 
 
-//------------------------------------------------------------
-// SYSCTRL
-//------------------------------------------------------------
-
-sysctrl_top
-u_sysctrl
-(
-    //--------------------------------------------------------
-    // Global Signals
-    //--------------------------------------------------------
-
-    .pclk           (clk),
-
-    .presetn        (rst_n),
-
-
-    //--------------------------------------------------------
-    // APB Slave Interface
-    //--------------------------------------------------------
-
-    .psel           (sysctrl_sel),
-
-    .penable        (sys_penable),
-
-    .pwrite         (sys_pwrite),
-
-    .paddr          (sys_paddr),
-
-    .pwdata         (sys_pwdata),
-
-    .prdata         (sysctrl_prdata),
-
-    .pready         (sysctrl_pready),
-
-    .pslverr        (sysctrl_pslverr),
-
-
-    //--------------------------------------------------------
-    // System Status Inputs
-    //--------------------------------------------------------
-
-    .cpu_running    (cpu_running),
-
-    .irq_pending    (irq_pending),
-
-    .sleep_mode     (sleep_mode),
-
-    .debug_mode     (debug_mode),
-
-
-    //--------------------------------------------------------
-    // System Outputs
-    //--------------------------------------------------------
-
-    .cpu_reset      (cpu_reset),
-
-    .gpio_reset     (gpio_reset),
-
-    .timer_reset    (timer_reset),
-
-    .uart_reset     (uart_reset),
-
-    .spi_reset      (spi_reset),
-
-    .i2c_reset      (i2c_reset),
-
-    .dma_reset      (dma_reset),
-
-
-    //--------------------------------------------------------
-    // Clock Enables
-    //--------------------------------------------------------
-
-    .cpu_clk_en     (cpu_clk_en),
-
-    .gpio_clk_en    (gpio_clk_en),
-
-    .timer_clk_en   (timer_clk_en),
-
-    .uart_clk_en    (uart_clk_en),
-
-    .spi_clk_en     (spi_clk_en),
-
-    .i2c_clk_en     (i2c_clk_en),
-
-    .dma_clk_en     (dma_clk_en),
-
-
-    //--------------------------------------------------------
-    // Boot Mode
-    //--------------------------------------------------------
-
-    .boot_mode      (boot_mode_sel)
-
-);
 
 //------------------------------------------------------------
 // INTC APB Interface

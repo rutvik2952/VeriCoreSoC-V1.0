@@ -1,0 +1,270 @@
+`ifndef SYSCTRL_REG_SV
+`define SYSCTRL_REG_SV
+
+ class sysid_reg extends uvm_reg;
+
+   rand uvm_reg_field SYSID;
+
+   `uvm_object_utils(sysid_reg)
+
+   function new(string name="sysid_reg");
+     super.new(name,32,UVM_NO_COVERAGE);
+   endfunction
+
+   function void build();
+     SYSID = uvm_reg_field::type_id::create("SYSID");
+     SYSID.configure(this,32,0,"RO",0,'h5449_4E59,1,1,1);
+   endfunction
+
+ endclass
+
+ class sys_version_reg extends uvm_reg;
+
+   rand uvm_reg_field SYS_VERSION;
+
+   `uvm_object_utils(sys_version_reg)
+
+   function new(string name="sys_version_reg");
+     super.new(name,32,UVM_NO_COVERAGE);
+   endfunction
+
+   function void build();
+     SYS_VERSION = uvm_reg_field::type_id::create("SYS_VERSION");
+     SYS_VERSION.configure(this,32,0,"RO",0,'h0001_0000,1,1,1);
+   endfunction
+
+ endclass
+
+ class sys_status_reg extends uvm_reg;
+
+   rand uvm_reg_field CPU_RUNNING;
+   rand uvm_reg_field IRQ_PENDING;
+   rand uvm_reg_field SLEEP_MODE;
+   rand uvm_reg_field DEBUG_MODE;
+ 
+   `uvm_object_utils(sys_status_reg)
+
+   function new(string name ="sys_status_reg");
+     super.new(name,32,UVM_NO_COVERAGE);
+   endfunction
+
+   function void build();
+      CPU_RUNNING = uvm_reg_field::type_id::create("CPU_RUNNING");
+      CPU_RUNNING.configure(this,1,0,"RO",0,0,1,1,1);
+
+      IRQ_PENDING = uvm_reg_field::type_id::create("IRQ_PENDING");
+      IRQ_PENDING.configure(this,1,1,"RO",0,0,1,1,1);   
+      
+      SLEEP_MODE = uvm_reg_field::type_id::create("SLEEP_MODE");
+      SLEEP_MODE.configure(this,1,2,"RO",0,0,1,1,1);
+
+      DEBUG_MODE = uvm_reg_field::type_id::create("DEBUG_MODE");
+      DEBUG_MODE.configure(this,1,3,"RO",0,0,1,1,1);
+      
+   endfunction
+
+endclass
+
+class sys_control_reg extends uvm_reg;
+
+   rand uvm_reg_field SW_RESET;
+   rand uvm_reg_field SLEEP;
+   rand uvm_reg_field DEBUG;
+   rand uvm_reg_field BOOT;
+   
+   `uvm_object_utils(sys_control_reg)
+
+   function new(string name="sys_control_reg");
+     super.new(name,32,UVM_NO_COVERAGE);
+   endfunction
+
+   function void build();
+     SW_RESET = uvm_reg_field::type_id::create("SW_RESET");
+     SW_RESET.configure(this,1,0,"RW",0,0,1,1,1);
+   
+     SLEEP = uvm_reg_field::type_id::create("SLEEP");
+     SLEEP.configure(this,1,1,"RW",0,0,1,1,1);
+
+     DEBUG = uvm_reg_field::type_id::create("DEBUG");
+     DEBUG.configure(this,1,2,"RW",0,0,1,1,1);
+
+     BOOT = uvm_reg_field::type_id::create("BOOT");
+     BOOT.configure(this,1,3,"RW",0,0,1,1,1);
+    
+   endfunction
+
+endclass
+
+class reset_control_reg extends uvm_reg;
+
+   rand uvm_reg_field RST_CPU;
+   rand uvm_reg_field RST_GPIO;
+   rand uvm_reg_field RST_TIMER;
+   rand uvm_reg_field RST_UART;
+   rand uvm_reg_field RST_SPI;
+   rand uvm_reg_field RST_I2C;
+   rand uvm_reg_field RST_DMA;
+
+   `uvm_object_utils(reset_control_reg)
+     
+   function new(string name="reset_control_reg");
+      super.new(name,32,UVM_NO_COVERAGE);
+   endfunction
+
+   function void build();
+     RST_CPU = uvm_reg_field::type_id::create("RST_CPU");
+     RST_CPU.configure(this,1,0,"RW",0,0,1,1,1);
+
+     RST_GPIO = uvm_reg_field::type_id::create("RST_GPIO");
+     RST_GPIO.configure(this,1,1,"RW",0,0,1,1,1);
+
+     RST_TIMER = uvm_reg_field::type_id::create("RST_TIMER");
+     RST_TIMER.configure(this,1,2,"RW",0,0,1,1,1);
+
+     RST_UART = uvm_reg_field::type_id::create("RST_UART");
+     RST_UART.configure(this,1,3,"RW",0,0,1,1,1);
+     
+     RST_SPI = uvm_reg_field::type_id::create("RST_SPI");
+     RST_SPI.configure(this,1,4,"RW",0,0,1,1,1);
+
+     RST_I2C = uvm_reg_field::type_id::create("RST_I2C");
+     RST_I2C.configure(this,1,5,"RW",0,0,1,1,1);
+
+     RST_DMA = uvm_reg_field::type_id::create("RST_DMA");
+     RST_DMA.configure(this,1,6,"RW",0,0,1,1,1);
+ 
+   endfunction
+
+endclass
+
+class clock_enable_reg extends uvm_reg;
+
+  rand uvm_reg_field CLK_EN_CPU;
+  rand uvm_reg_field CLK_EN_GPIO;
+  rand uvm_reg_field CLK_EN_TIMER;
+  rand uvm_reg_field CLK_EN_UART;
+  rand uvm_reg_field CLK_EN_SPI;
+  rand uvm_reg_field CLK_EN_I2C;
+  rand uvm_reg_field CLK_EN_DWA;
+
+  `uvm_object_utils(clock_enable_reg)
+
+  function new(string name="clock_enable_reg");
+    super.new(name,32,UVM_NO_COVERAGE);
+  endfunction
+
+ function void build();
+   CLK_EN_CPU = uvm_reg_field::type_id::create("CLK_EN_CPU");
+   CLK_EN_CPU.configure(this,1,0,"RW",0,0,1,1,1);
+
+   CLK_EN_GPIO = uvm_reg_field::type_id::create("CLK_EN_GPIO");
+   CLK_EN_GPIO.configure(this,1,1,"RW",0,0,1,1,1);
+ 
+   CLK_EN_TIMER = uvm_reg_field::type_id::create("CLK_EN_TIMER");
+   CLK_EN_TIMER.configure(this,1,2,"RW",0,0,1,1,1);
+   
+   CLK_EN_UART = uvm_reg_field::type_id::create("CLK_EN_UART");
+   CLK_EN_UART.configure(this,1,3,"RW",0,0,1,1,1);
+
+   CLK_EN_SPI = uvm_reg_field::type_id::create("CLK_EN_SPI");
+   CLK_EN_SPI.configure(this,1,4,"RW",0,0,1,1,1);
+
+   CLK_EN_I2C = uvm_reg_field::type_id::create("CLK_EN_I2C");
+   CLK_EN_I2C.configure(this,1,5,"RW",0,0,1,1,1);
+
+   CLK_EN_DWA = uvm_reg_field::type_id::create("CLK_EN_DWA");
+   CLK_EN_DWA.configure(this,1,6,"RW",0,0,1,1,1);
+ 
+ endfunction
+
+endclass
+
+class boot_config_reg extends uvm_reg;
+
+   rand uvm_reg_field BOOT_MDOE;
+   
+   `uvm_object_utils(boot_config_reg)
+
+   function new(string name="boot_config_reg");
+     super.new(name,32,UVM_NO_COVERAGE);
+   endfunction
+
+   function void build();
+      BOOT_MDOE = uvm_reg_field::type_id::create("BOOT_MDOE");
+      BOOT_MDOE.configure(this,2,0,"RW",0,0,1,1,1);
+
+   endfunction
+
+endclass
+
+class scratch0_reg extends uvm_reg;
+
+   rand uvm_reg_field SCRATCH0;
+
+   `uvm_object_utils(scratch0_reg)
+
+   function new(string name="scratch0_reg");
+     super.new(name,32,UVM_NO_COVERAGE);
+   endfunction
+
+   function void build();
+      SCRATCH0 = uvm_reg_field::type_id::create("SCRATCH0");
+      SCRATCH0.configure(this,32,0,"RW",0,0,1,1,1);
+
+   endfunction 
+
+endclass
+
+class scratch1_reg extends uvm_reg;
+
+   rand uvm_reg_field SCRATCH1;
+
+   `uvm_object_utils(scratch1_reg)
+
+   function new(string name="scratch1_reg");
+      super.new(name,32,UVM_NO_COVERAGE);
+   endfunction
+
+   function void build();
+     SCRATCH1 = uvm_reg_field::type_id::create("SCRATCH1");
+     SCRATCH1.configure(this,32,0,"RW",0,0,1,1,1);
+   endfunction
+
+endclass
+
+class scratch2_reg extends uvm_reg;
+
+   rand uvm_reg_field SCRATCH2;
+
+   `uvm_object_utils(scratch2_reg)
+
+   function new(string name="scratch2_reg");
+     super.new(name,32,UVM_NO_COVERAGE);
+   endfunction
+
+   function void build();
+      SCRATCH2 = uvm_reg_field::type_id::create("SCRATCH2");
+      SCRATCH2.configure(this,32,0,"RW",0,0,1,1,1);
+
+   endfunction 
+
+endclass
+
+class scratch3_reg extends uvm_reg;
+
+   rand uvm_reg_field SCRATCH3;
+
+   `uvm_object_utils(scratch3_reg)
+
+   function new(string name="scratch3_reg");
+      super.new(name,32,UVM_NO_COVERAGE);
+   endfunction
+
+   function void build();
+     SCRATCH3 = uvm_reg_field::type_id::create("SCRATCH3");
+     SCRATCH3.configure(this,32,0,"RW",0,0,1,1,1);
+   endfunction
+
+endclass
+
+`endif //SYSCTRL_REG_SV

@@ -4,10 +4,13 @@
  package soc_reg_model_pkg;
    `include"uvm_macros.svh"
     import uvm_pkg::*;
-    //import spi_reg_pkg::*;
-    //import uart_reg_pkg::*;
     `include"SPI_Regs/spi_register.sv"
     `include"UART_Regs/urat_register.sv"
+    `include"SYSCTRL_Regs/sysctrl_register.sv"
+    `include"INTC_Regs/intc_register.sv"
+    `include"TIMER_Regs/timer_register.sv"
+    `include"BOOTROM_Regs/bootrom_register.sv"
+
  endpackage
 
 `endif //SOC_REG_MODEL_PKG_SV
