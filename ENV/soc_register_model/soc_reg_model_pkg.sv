@@ -10,6 +10,9 @@
     `include"INTC_Regs/intc_register.sv"
     `include"TIMER_Regs/timer_register.sv"
     `include"BOOTROM_Regs/bootrom_register.sv"
+    `include"DMA_Regs/dma_register.sv"
+    `include"GPIO_Regs/gpio_register.sv"
+    `include"I2C_Regs/i2c_register.sv"
 
  endpackage
 
