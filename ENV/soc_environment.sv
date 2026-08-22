@@ -8,6 +8,8 @@ class soc_environment extends uvm_env;
  
  soc_virtual_sequencer vir_seqr;
 
+ soc_reg_block_model soc_reg_model;
+
  //Factory Registration
  `uvm_component_utils(soc_environment)
 
@@ -19,6 +21,8 @@ class soc_environment extends uvm_env;
    super.build_phase(phase);
    apb_env  = apb_environment::type_id::create("apb_env",this);
    vir_seqr = soc_virtual_sequencer::type_id::create("vir_seqr",this);
+   soc_reg_model = soc_reg_block_model::type_id::create("soc_reg_model");
+   soc_reg_model.print();
  endfunction
 
 
