@@ -35,7 +35,7 @@ class soc_environment extends uvm_env;
  virtual function void connect_phase(uvm_phase phase);
    super.connect_phase(phase);
    vir_seqr.apb_seqr = apb_env.apb_agt.apb_seqr; 
-   //soc_reg_model.default_map.set_sequencer(apb_env.apb_agt.apb_seqr,adapter); 
+   soc_reg_model.default_map.set_sequencer(apb_env.apb_agt.apb_seqr,adapter); 
  endfunction
 
 endclass

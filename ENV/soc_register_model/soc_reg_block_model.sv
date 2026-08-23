@@ -39,7 +39,14 @@ class soc_reg_block_model extends uvm_reg_block;
      gpio_reg_model.build();
      uart_reg_model.build();
      spi_reg_model.build();
- 
+
+  default_map = create_map(
+      "default_map",
+      'h0,
+      4,
+      UVM_LITTLE_ENDIAN
+   );
+      
 
      lock_model();
    endfunction   
