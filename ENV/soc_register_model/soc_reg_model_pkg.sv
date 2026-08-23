@@ -21,7 +21,7 @@
     `include"UART_Regs/uart_reg_block.sv"
     `include"SPI_Regs/spi_reg_block.sv"
     `include"soc_reg_block_model.sv"
-
+    `include"soc_reg_adapter.sv"
  endpackage
 
 `endif //SOC_REG_MODEL_PKG_SV

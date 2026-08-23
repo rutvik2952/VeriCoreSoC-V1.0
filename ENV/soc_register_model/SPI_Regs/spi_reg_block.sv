@@ -56,6 +56,17 @@ class spi_reg_block extends uvm_reg_block;
     SPI_INT_CLEAR.configure(this);
     SPI_INT_CLEAR.build();
 
+    default_map = create_map("default_map",'h4000_4000,4,UVM_LITTLE_ENDIAN);
+    default_map.add_reg(SPI_ID,'h0,"RW");
+    default_map.add_reg(SPI_VERSION,'h4,"RW");
+    default_map.add_reg(SPI_CONTROL,'h8,"RW");
+    default_map.add_reg(SPI_CLKDIV,'hC,"RW");
+    default_map.add_reg(SPI_TXDATA,'h10,"RW");
+    default_map.add_reg(SPI_RXDATA,'h14,"RW");
+    default_map.add_reg(SPI_STATUS,'h18,"RW");
+    default_map.add_reg(SPI_INT_STATUS,'h1C,"RW");
+    default_map.add_reg(SPI_INT_CLEAR,'h20,"RW");
+
   endfunction
 
 endclass

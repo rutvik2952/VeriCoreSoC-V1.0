@@ -24,6 +24,14 @@ class soc_reg_block_model extends uvm_reg_block;
      gpio_reg_model    = gpio_reg_block::type_id::create("gpio_reg_model");
      uart_reg_model    = uart_reg_block::type_id::create("uart_reg_model");
      spi_reg_model     = spi_reg_block::type_id::create("spi_reg_model");
+    
+     sysctrl_reg_model.configure(this);
+     intc_reg_model.configure(this);
+     timer_reg_model.configure(this);
+     gpio_reg_model.configure(this);
+     uart_reg_model.configure(this);
+     spi_reg_model.configure(this);
+      
 
      sysctrl_reg_model.build();
      intc_reg_model.build();
